@@ -15,7 +15,7 @@ module.exports = {
       },
       animation: {
         glow: 'glow 1.5s ease-in-out infinite',
-        gradientFlow: 'gradientFlow 1s ease infinite',
+        gradientFlow: 'gradientFlow 3s ease infinite',
       },
       keyframes: {
         glow: {

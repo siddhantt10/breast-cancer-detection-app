@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Logo Section - Replaced text with an image */}
       <div className="flex items-center hover:cursor-pointer lg:pl-12">
         <Link href="/" legacyBehavior>
-          <img src="logo.png" alt="Logo" width={200} height={80} />
+          <img src="/logo.png" alt="Logo" width={200} height={80} />
         </Link>
       </div>
 

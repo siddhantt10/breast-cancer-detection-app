@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="bg-gray-900 text-white">
       <Navbar />
-      <div className="flex items-center justify-center lg:justify-start h-screen bg-cover bg-center" style={{ backgroundImage: 'url(home-bg.png)' }}>
+      <div className="flex items-center justify-center lg:justify-start h-screen bg-cover bg-center" style={{ backgroundImage: 'url(/home-bg.png)' }}>
         <div className="text-center p-8 rounded-lg lg:text-left lg:ml-12">
           <h1 className="text-xl mb-4">We are</h1>
           <h2 className="text-4xl lg:text-6xl  font-bold mb-6">
@@ -20,7 +20,7 @@ const Home = () => {
 
 
           </h2>
-          <Link href='/dashboard/datainput' legacyBehavior>
+          <Link href='/research' legacyBehavior>
           <button className="lg:ml-0 ml-auto mr-auto hover:bg-bcdBlue border-solid border-[1px] border-white/40 hover:border-white/10 transition-all ease-in-out  py-2 px-4 lg:w-64 rounded-md text-left flex justify-between" >
             Explore<ChevronRight color="#ffffff" />
           </button>
