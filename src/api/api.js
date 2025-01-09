@@ -15,7 +15,7 @@ export const sendFormData = async (formData) => {
         'Content-Type': 'application/json',
       },
     });
-
+    console.log(response.data)
     return response.data; // Return the prediction result
   } catch (error) {
     console.error('Error sending form data:', error);

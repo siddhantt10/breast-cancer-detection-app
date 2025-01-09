@@ -8,9 +8,9 @@ import { LoaderCircleIcon } from 'lucide-react';
 const ReportForm = () => {
   const [formData, setFormData] = useState({
     // Patient Data
-    patientName: '',
-    patientAge: '',
-    patientGender: '',
+    // patientName: '',
+    // patientAge: '',
+    // patientGender: '',
 
     // Values
     meanRadius: '',
@@ -62,10 +62,10 @@ const ReportForm = () => {
     setError(null); // Reset error state before making a request
 
     try {
-    //   const response = await sendFormData(formData); // Call the API function with the form data
+      const response = await sendFormData(formData); // Call the API function with the form data
       console.log('Form submitted successfully:', response.data);
     } catch (err) {
-    //   console.error('Error submitting form:', err);
+      console.error('Error submitting form:', err);
       setError('Failed to submit the form. Please try again.');
     } finally {
       setLoading(true);
@@ -86,8 +86,8 @@ const ReportForm = () => {
               type="text"
               id="patientName"
               name="patientName"
-              value={formData.patientName}
-              onChange={handleChange}
+              // value={formData.patientName}
+              // onChange={handleChange}
               className="p-2 rounded-md bg-gray-700 text-white focus:outline-none focus:ring focus:ring-bcdBlue"
               placeholder="Enter patient name"
             />
@@ -100,8 +100,8 @@ const ReportForm = () => {
               type="number"
               id="patientAge"
               name="patientAge"
-              value={formData.patientAge}
-              onChange={handleChange}
+              // value={formData.patientAge}
+              // onChange={handleChange}
               className="p-2 rounded-md bg-gray-700 text-white focus:outline-none focus:ring focus:ring-bcdBlue"
               placeholder="Enter patient age"
             />
@@ -113,8 +113,8 @@ const ReportForm = () => {
             <select
               id="patientGender"
               name="patientGender"
-              value={formData.patientGender}
-              onChange={handleChange}
+              // value={formData.patientGender}
+              // onChange={handleChange}
               className="p-2 rounded-md bg-gray-700 text-white focus:outline-none focus:ring focus:ring-bcdBlue"
             >
               <option value="">Select Gender</option>
