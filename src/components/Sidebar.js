@@ -25,7 +25,7 @@ const Sidebar = () => {
   }, [router.pathname]); // Add router.pathname as a dependency to run on path change
 
   return (
-    <div className="lg:w-96 bg-gray-800 text-white left-0 p-4 flex flex-col justify-between">
+    <div className=" animate-fadeInSlide lg:w-96 bg-gray-900 text-white left-0 p-4 flex flex-col justify-between">
       <div className="flex flex-col gap-4">
         <button
           className={`flex items-center space-x-4 w-full py-2 px-2 rounded-xl transition-all ease-in-out ${
