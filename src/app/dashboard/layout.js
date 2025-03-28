@@ -10,7 +10,7 @@ export default function DashboardLayout({ children }) {
             <Navbar />
             <div className="flex mt-24">
                 <Sidebar />
-                <div className="bg-gray-600 p-4 w-full h-[89vh] lg:h-[87vh] overflow-y-auto">
+                <div className="bg-[url('/pattern.svg')] bg-cover p-1 lg:p-4 w-full h-[89vh] lg:h-[87vh] overflow-y-auto">
                     <main className="flex-1 overflow-auto">{children}</main>
                 </div>
             </div>

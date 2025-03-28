@@ -16,6 +16,7 @@ module.exports = {
       animation: {
         glow: 'glow 1.5s ease-in-out infinite',
         gradientFlow: 'gradientFlow 3s ease infinite',
+        fadeInSlide: 'fadeInSlide 0.5s ease-out forwards',
       },
       keyframes: {
         glow: {
@@ -32,6 +33,10 @@ module.exports = {
             'background-size': '150% 150%',
             'background-position': 'right center',
           },
+        },
+        fadeInSlide: {
+          '0%': { opacity: 0, transform: 'translateY(10px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
         },
       },
     },

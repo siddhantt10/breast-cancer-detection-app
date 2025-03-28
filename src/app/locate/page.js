@@ -1,15 +1,13 @@
 // src/app/locate.js
 import Navbar from '../../components/Navbar'
+import Map from '../../components/Map'
 
 const Locate = () => {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-[url('/pattern.svg')] bg-cover bg-opacity-60 text-white">
       <Navbar />
-      <div className="text-center py-16">
-        <h1 className="text-4xl font-bold mb-6">Locate Hospitals</h1>
-        <p className="text-lg">
-          Find nearby hospitals for breast cancer screening and treatment.
-        </p>
+      <div className="mx-auto text-center max-w-screen-md pt-24 min-h-screen p-4 animate-fadeInSlide">
+        <Map />
       </div>
     </div>
   )

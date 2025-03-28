@@ -3,7 +3,7 @@
 
 export default function DashboardHome() {
   return (
-    <div className="flex items-center justify-center h-full text-gray-300 text-xl">
+    <div className="animate-fadeInSlide flex items-center justify-center h-full text-gray-300 text-xl">
       <p>Choose an option from the sidebar to begin.</p>
     </div>
   );
