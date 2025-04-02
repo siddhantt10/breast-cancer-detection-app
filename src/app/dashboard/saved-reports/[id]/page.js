@@ -107,14 +107,14 @@ export default function SavedReportDetail() {
                 {report.prediction.toLowerCase() === 'malignant' ? (
                     <p className="text-gray-300 px-6">
                         A <strong>malignant</strong> tumor is cancerous and may spread to
-                        other parts of the body if not treated promptly. It’s crucial to
+                        other parts of the body if not treated promptly. It&apos;s crucial to
                         consult with a medical professional for further evaluation,
                         treatment plans, and regular follow-up.
                     </p>
                 ) : (
                     <p className="text-gray-300 px-6">
                         A <strong>benign</strong> tumor is generally non-cancerous and
-                        unlikely to spread. However, it's still important to follow up with
+                        unlikely to spread. However, it&apos;s still important to follow up with
                         a healthcare provider for monitoring and to ensure proper care.
                     </p>
                 )}
