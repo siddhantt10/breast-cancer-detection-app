@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import { getReportById } from '@/data/data';
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function SavedReportDetail() {
     const params = useParams();
@@ -37,7 +38,7 @@ export default function SavedReportDetail() {
         <div className=" animate-fadeInSlide max-w-4xl p-2 lg:p-6 md:p-4 bg-gray-800 text-white rounded-lg shadow-md m-2">
             {/* Header / Title */}
             <div className="mb-6 mt-4">
-                <img className='opacity-50' src="/logo.png" alt="Logo" width={300} height={80} />
+                <Image className='opacity-50' src="/logo.png" alt="Logo" width={300} height={80} />
             </div>
 
             <div className='border-t-4 border-dashed border-gray-600 my-10'></div>

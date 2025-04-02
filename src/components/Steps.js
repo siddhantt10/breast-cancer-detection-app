@@ -12,7 +12,7 @@ const ProcessSection = () => {
           <div className="bg-gray-800 text-white rounded-lg shadow-lg p-8 hover:shadow-xl hover:shadow-bcdBlue/40 transition-all duration-300">
             <h3 className="text-xl font-bold mb-4">Step 1</h3>
             <p className="text-sm">
-              Go to Our Dashboard and select new report, You'll see a form apear on the right.
+              Go to Our Dashboard and select new report, You&apos;ll see a form apear on the right.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ const ProcessSection = () => {
           <div className="bg-gray-800 text-white rounded-lg shadow-lg p-8 hover:shadow-xl hover:shadow-bcdBlue/40 transition-all duration-300">
             <h3 className="text-xl font-bold mb-4">Step 3</h3>
             <p className="text-sm">
-              Thats it. Wait while the model processes your data. after few seconds you'll see you complete report.
+              Thats it. Wait while the model processes your data. after few seconds you&apos;ll see you complete report.
             </p>
           </div>
         </div>

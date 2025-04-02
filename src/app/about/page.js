@@ -1,6 +1,7 @@
 // src/app/about.js
 import Navbar from '../../components/Navbar'
 import { Linkedin, Github, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       <div className="sm:flex items-center max-w-screen-xl pt-24 animate-fadeInSlide">
         <div className="sm:w-1/2 p-10">
           <div className="image object-center text-center">
-            <img src="https://i.imgur.com/WbQnbas.png" />
+            <Image src="https://i.Imageur.com/WbQnbas.png" alt='som'/>
           </div>
         </div>
         <div className="sm:w-1/2 p-5">
@@ -37,7 +38,7 @@ const About = () => {
         <div className="flex flex-wrap gap-2 md:gap-8 lg:gap-10 justify-center items-center mb-10">
 
           <div className="text-center hover:shadow-lg bg-white p-4 rounded-xl w-40 transition-all ease-in-out">
-            <p><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
+            <p><Image className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
 
             <p className="text-gray-900 font-semibold">Siddhant<br/>Patel</p>
             <p className="text-gray-500 uppercase text-sm">21BCE10511</p>
@@ -57,7 +58,7 @@ const About = () => {
           </div>
 
           <div className="text-center hover:shadow-lg bg-white p-4 rounded-xl w-40 transition-all ease-in-out">
-            <p><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
+            <p><Image className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
 
             <p className="text-gray-900 font-semibold">Shreyansh Kumar Singh </p>
             <p className="text-gray-500 uppercase text-sm">21BCE10848</p>
@@ -77,7 +78,7 @@ const About = () => {
           </div>
 
           <div className="text-center hover:shadow-lg bg-white p-4 rounded-xl w-40 transition-all ease-in-out">
-            <p><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
+            <p><Image className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
 
             <p className="text-gray-900 font-semibold">Utkarsh<br/>Verma</p>
             <p className="text-gray-500 uppercase text-sm">21BCE10269</p>
@@ -97,7 +98,7 @@ const About = () => {
           </div>
 
           <div className="text-center hover:shadow-lg bg-white p-4 rounded-xl w-40 transition-all ease-in-out">
-            <p><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
+            <p><Image className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
 
             <p className="text-gray-900 font-semibold">Jagrati Mathpal</p>
             <p className="text-gray-500 uppercase text-sm">21BCE10407</p>
@@ -117,7 +118,7 @@ const About = () => {
           </div>
 
           <div className="text-center hover:shadow-lg bg-white p-4 rounded-xl w-40 transition-all ease-in-out">
-            <p><img className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
+            <p><Image className="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.pinimg.com/736x/a1/93/f0/a193f0417deece40e7f5a7b99fc81789.jpg"/></p>
 
             <p className="text-gray-900 font-semibold">Mayank Saxena</p>
             <p className="text-gray-500 uppercase text-sm">21BCE10801</p>
