@@ -14,7 +14,7 @@ const Map = () => {
 
   // Use useLoadScript hook to load the Maps API once
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: '', // replace with your API key
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY, // replace with your API key
     libraries: ['places'],
   });
 
