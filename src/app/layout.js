@@ -15,6 +15,22 @@ const geistMono = localFont({
 export const metadata = {
   title: "Breast Cancer Detection System",
   description: "Creating A better future with the help of Technology.",
+  icons: {
+    icon: "/logo.png",
+  },
+  keywords: [
+    "Breast Cancer Detection",
+    "Machine Learning",
+    "AI",
+    "Deep Learning",
+    "Medical Imaging",
+    "Healthcare Technology",
+    "Breast Cancer Awareness",
+    "Data Science",
+    "Computer Vision",
+  ],
+  authors: [{ name: "Group 179" }],
+  creator: "Group 179",
 };
 
 export default function RootLayout({ children }) {

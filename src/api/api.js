@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8000'; // Update this with your production backend URL when deployed
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL; // Use environment variable for flexibility
+
 
 // Function to send cancer data to the backend for prediction
 export const sendFormData = async (formData) => {
