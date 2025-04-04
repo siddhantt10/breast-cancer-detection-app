@@ -178,9 +178,7 @@ const Map = () => {
                     <button
                       className="px-3 py-1 bg-blue-500 hover:bg-blue-400 rounded"
                       onClick={() => {
-                        const lat = hospital.geometry.location.lat();
-                        const lng = hospital.geometry.location.lng();
-                        const url = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+                        const url = `https://www.google.com/maps/search/?api=1&query=${hospital.name}+${hospital.vicinity}`;
                         window.open(url, '_blank');
                       }}
                     >

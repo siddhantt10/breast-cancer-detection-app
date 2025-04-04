@@ -44,7 +44,7 @@ let reports = [
         worstFractalDimension: '0.078',
       },
       prediction: 'Malignant',
-      accuracy: 0.95,
+      accuracy: 96,
       createdAt: '2025-03-27T12:00:00Z',
     },
     {
@@ -88,7 +88,7 @@ let reports = [
         worstFractalDimension: '0.072',
       },
       prediction: 'Benign',
-      accuracy: 0.88,
+      accuracy: 96,
       createdAt: '2025-03-27T13:15:00Z',
     },
     {
@@ -132,7 +132,7 @@ let reports = [
         worstFractalDimension: '0.075',
       },
       prediction: 'Malignant',
-      accuracy: 0.91,
+      accuracy: 96,
       createdAt: '2025-03-27T14:00:00Z',
     },
   ];

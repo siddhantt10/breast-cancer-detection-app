@@ -16,7 +16,7 @@ export const metadata = {
   title: "Breast Cancer Detection System",
   description: "Creating A better future with the help of Technology.",
   icons: {
-    icon: "/logo.png",
+    icon: "logo.png",
   },
   keywords: [
     "Breast Cancer Detection",
